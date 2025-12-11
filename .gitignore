@@ -1,0 +1,14 @@
+.venv/
+
+audio_vf/
+audio_vo/
+output/
+segments_fr/
+segments_vo/
+speakers_fr/
+videos_vf/
+videos_vo/
+clusters_fr/
+clusters_vo/
+
+.env
