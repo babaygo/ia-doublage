@@ -1,5 +1,7 @@
 .venv/
 
+audio_vf/
+audio_vo/
 output/
 segments_fr/
 segments_vo/
