@@ -8,7 +8,7 @@ def extract_audio(input_folder, output_folder):
     for file in os.listdir(input_folder):
         if file.endswith(".mp4"):
             input_path = os.path.join(input_folder, file)
-            output_path = os.path.join(output_folder, file.replace(".mp4", ".wav"))
+            output_path = os.path.join(output_folder, file.replace(".mp4", ".wav").replace(" ", ""))
             cmd = [
                 "ffmpeg",
                 "-i",
@@ -23,5 +23,4 @@ def extract_audio(input_folder, output_folder):
             subprocess.run(cmd, shell=True)
 
 
-extract_audio("videos_vf", "audio_vf")
-extract_audio("videos_vo", "audio_vo")
+extract_audio("videos_vostr", "audio_vostr")
