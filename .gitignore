@@ -1,7 +1,5 @@
 .venv/
 
-audio_vf/
-audio_vo/
 output/
 segments_fr/
 segments_vo/
@@ -10,5 +8,6 @@ videos_vf/
 videos_vo/
 clusters_fr/
 clusters_vo/
+segments_clean_fr/
 
 .env
